@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\01 Singleton">
+      <UniqueIdentifier>{4537dd61-bcf1-4d27-b7a8-6d9749058847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01 Singleton">
+      <UniqueIdentifier>{de1a0f9a-bb63-43d5-acb5-f071bd4906fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02 Builder">
+      <UniqueIdentifier>{1e54cfe1-bd20-4227-9c4c-d7ece6da0e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\02 Builder">
+      <UniqueIdentifier>{85b3238a-9ecf-40ae-8152-cdae11adeada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\03 Prototype">
+      <UniqueIdentifier>{5b7a0cc3-bc3d-4054-a65e-156de84f751a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03 Prototype">
+      <UniqueIdentifier>{97f53ef1-ee03-4051-a481-1ed29194ce49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\04 Registry">
+      <UniqueIdentifier>{9736bff6-9bfd-4d75-ba47-05560f10e67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04 Registry">
+      <UniqueIdentifier>{6beb526a-7d99-46f1-8982-5282abe97ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\05 Practical Factory">
+      <UniqueIdentifier>{9f6b9259-770e-459d-ae2a-95a8c7e7d06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05 Practical Factory">
+      <UniqueIdentifier>{f7d08a34-d952-4aea-ba3e-2f719edc227d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\06 Factory Method">
+      <UniqueIdentifier>{9fb00136-f072-4469-be0f-6d5e5a71229a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\06 Factory Method">
+      <UniqueIdentifier>{bb598e9c-2da5-4a22-b24b-736018bf5bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\07 Abstract Factory">
+      <UniqueIdentifier>{0fc369ad-d4b5-4e23-9e72-bda0b7bc0963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\07 Abstract Factory">
+      <UniqueIdentifier>{aea0e5f4-0637-4ea6-999d-7ddf75fd1cf0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>Source Files\01 Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files\02 Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\03 Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="BotPlayer.cpp">
+      <Filter>Source Files\03 Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="RealPlayer.cpp">
+      <Filter>Source Files\03 Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Intern.cpp">
+      <Filter>Source Files\04 Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="InternRegistry.cpp">
+      <Filter>Source Files\04 Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="Sparrow.cpp">
+      <Filter>Source Files\05 Practical Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Hen.cpp">
+      <Filter>Source Files\05 Practical Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Peacock.cpp">
+      <Filter>Source Files\05 Practical Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Crow.cpp">
+      <Filter>Source Files\05 Practical Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdFactory.cpp">
+      <Filter>Source Files\05 Practical Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteVehicles.cpp">
+      <Filter>Source Files\06 Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleFactory.cpp">
+      <Filter>Source Files\06 Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="MacUI.cpp">
+      <Filter>Source Files\07 Abstract Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsUI.cpp">
+      <Filter>Source Files\07 Abstract Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="LinuxUI.cpp">
+      <Filter>Source Files\07 Abstract Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsFactory.cpp">
+      <Filter>Source Files\07 Abstract Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="MacFactory.cpp">
+      <Filter>Source Files\07 Abstract Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="LinuxFactor.cpp">
+      <Filter>Source Files\07 Abstract Factory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>Header Files\01 Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files\02 Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\03 Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="BotPlayer.h">
+      <Filter>Header Files\03 Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="RealPlayer.h">
+      <Filter>Header Files\03 Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Intern.h">
+      <Filter>Header Files\04 Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="InternRegistry.h">
+      <Filter>Header Files\04 Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Header Files\05 Practical Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Sparrow.h">
+      <Filter>Header Files\05 Practical Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Hen.h">
+      <Filter>Header Files\05 Practical Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Peacock.h">
+      <Filter>Header Files\05 Practical Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Crow.h">
+      <Filter>Header Files\05 Practical Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdType.h">
+      <Filter>Header Files\05 Practical Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdFactory.h">
+      <Filter>Header Files\05 Practical Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Header Files\06 Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteVehicles.h">
+      <Filter>Header Files\06 Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleFactory.h">
+      <Filter>Header Files\06 Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsUI.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Checkbox.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="MacUI.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="LinuxUI.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIFactory.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsFactory.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="MacFactory.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="LinuxFactor.h">
+      <Filter>Header Files\07 Abstract Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

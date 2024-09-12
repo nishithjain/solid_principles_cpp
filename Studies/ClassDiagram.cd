@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Menu">
+    <Position X="2" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button">
+    <Position X="4.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Checkbox">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Checkbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsButton">
+    <Position X="4.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WindowsUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsCheckbox">
+    <Position X="6.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WindowsUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsMenu">
+    <Position X="2" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WindowsUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacButton">
+    <Position X="4.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>MacUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacCheckbox">
+    <Position X="6.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>MacUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacMenu">
+    <Position X="2" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>MacUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxButton">
+    <Position X="4.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>LinuxUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxCheckbox">
+    <Position X="6.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>LinuxUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxMenu">
+    <Position X="2" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>LinuxUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUIFactory">
+    <Position X="10.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAEAACA=</HashCode>
+      <FileName>GUIFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFactory">
+    <Position X="8.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAACA=</HashCode>
+      <FileName>WindowsFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacFactory">
+    <Position X="10.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAACA=</HashCode>
+      <FileName>MacFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinuxFactor">
+    <Position X="12.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAACA=</HashCode>
+      <FileName>LinuxFactor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
