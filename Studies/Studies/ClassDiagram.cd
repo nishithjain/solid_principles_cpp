@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Eagle">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Eagle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hen">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Hen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parrot">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQA=</HashCode>
+      <FileName>Parrot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bird">
+    <Position X="6.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAAAAAAAAgAAAAAAAAAAQAFAACgAAAEgAAAAAA=</HashCode>
+      <FileName>Bird.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Penguin">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Penguin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IFlyable">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>IFlyable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBirds">
+    <Position X="9.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AngryBirds.h</FileName>
+      <NewMemberFileName>Source.cpp</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
